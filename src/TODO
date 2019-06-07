@@ -1,0 +1,5 @@
+- refactoring
+  - datatypes to own file
+  - collapseDim: handly types better
+  - Make type hierachy for F_k <: F_kw ... 
+    - use to reduce number of kSum defs
