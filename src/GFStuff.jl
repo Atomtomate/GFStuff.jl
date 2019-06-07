@@ -1,8 +1,5 @@
 module GFStuff
-    __precompile__(false)
-    include("../../../RootFinding/src/RootFinding.jl")
-    using .RootFinding
-
+    using RootFinding
     include("./GF.jl")
     include("./GF_iw.jl")
     include("./utility.jl")
